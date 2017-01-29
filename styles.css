@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: plum;
+  font-family: 'Bitter',sans-serif;
+  font-weight: bold;
+}
+
+img {
+  height:auto;
+  width: 200px;
+}
+
+#welcome {
+  font-style: italic;
+  color: blue;
+  border: 2px solid red;
+}
+
+#best-animal {
+  color: white;
+}
+
+li {
+  color: red;
+  text-align: center;
+  width: 33%;
+  padding: 10px 20px;
+  float: right;
+  border: 2px solid teal;
+  list-style-type: none;
+}
+
+.animal {
+  color: blue;
+}
+
+.mammal {
+  color: green;
+}
+
+.fish {
+  color: yellow;
+}
+
+.bird {
+  color: purple;
+}
+
+a:hover {
+  color:red;
+}
+a::first-letter {
+  font-size: 24px;
+  color: blue;
+}
+a{
+  display:block;
+}
